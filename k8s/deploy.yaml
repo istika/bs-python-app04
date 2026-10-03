@@ -16,6 +16,6 @@ spec:
     spec:
       containers:
       - name: python-app
-        image: amred7/python-app:v2
+        image: amred7/bs-python-app:latest
         ports:
         - containerPort: 5000
