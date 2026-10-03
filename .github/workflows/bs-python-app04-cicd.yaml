@@ -27,7 +27,7 @@ jobs:
         uses: docker/build-push-action@v6
         with:
           push: true
-          tags: amred7/bs-python-app04:${{ env.COMMIT_ID }}
+          tags: amred7/bs-python-app04:latest
     outputs:
       commit_id: ${{ env.COMMIT_ID }}
 
