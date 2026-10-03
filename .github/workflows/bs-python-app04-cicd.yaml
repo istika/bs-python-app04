@@ -1,4 +1,4 @@
-name: bs-python-app04-cicd
+name: bs-python-app04-cicd-chaine
 
 on:
   push:
